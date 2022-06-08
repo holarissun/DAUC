@@ -11,13 +11,13 @@ Requirements:
 ## To Reproduce Our Results:
 - Prepare Dataset with
 
-python3 prep_data_dmnist.py
+      python3 prep_data_dmnist.py
 
 - Uncertainty Explanation:
 
-python3 train_dmnist.py --latent_unit 40 --seed_k 0 --epoch 30 --bandwidth 1.0
+      python3 train_dmnist.py --latent_unit 40 --seed_k 0 --epoch 30 --bandwidth 1.0
 
 - Inverse Direction:
 
-python3 train_tabular.py --dataset Digits
+      python3 train_tabular.py --dataset Digits
 
